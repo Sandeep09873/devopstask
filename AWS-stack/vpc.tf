@@ -58,3 +58,8 @@ resource "aws_route_table_association" "a" {
 resource "aws_network_interface" "private" {
   subnet_id   = aws_subnet.private_subnet.id
 }
+resource "aws_network_interface_attachment" "private" {
+  instance_id          = aws_instance.node.id
+  network_interface_id = aws_network_interface.private.id
+  device_index         = 2
+}
