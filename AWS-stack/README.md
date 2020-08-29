@@ -372,7 +372,7 @@ Above we got output with Public IP thru which we can access EC2 and Private IP w
 
 ```
 sudo ssh -i ../../../../../Downloads/keys/user.pem ec2-user@3.235.152.125
-[sudo] password for mayank:
+[sudo] password for sandeep:
 The authenticity of host '3.235.152.125 (3.235.152.125)' can't be established.
 ECDSA key fingerprint is SHA256:ejGMNLx+zNc8SW9LqQ3FVIww9qVmwvhuhK4dWRMTzvs.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
