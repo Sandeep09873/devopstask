@@ -388,6 +388,7 @@ Run "sudo yum update" to apply all updates.
 [ec2-user@ip-10-0-1-90 ~]$ ip r
 default via 10.0.1.1 dev eth0
 10.0.1.0/24 dev eth0 proto kernel scope link src 10.0.1.90
+10.0.2.0/24 dev eth1 proto kernel scope link src 10.0.2.37
 169.254.169.254 dev eth0
 [ec2-user@ip-10-0-1-90 ~]$ exit
 ```
